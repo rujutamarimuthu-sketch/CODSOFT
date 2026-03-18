@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at top right, #1e293b, #0f172a);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.glass-wrapper {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: center;
+}
+
+.glass-card {
+    position: relative;
+    width: 310px;
+    height: 560px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 40px 25px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Background Glow Effect */
+.circle-aura {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 150px;
+    height: 150px;
+    background: #6366f1;
+    filter: blur(80px);
+    z-index: -1;
+}
+
+.glow-text {
+    font-size: 40px;
+    background: linear-gradient(to bottom, #fff, #94a3b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin
