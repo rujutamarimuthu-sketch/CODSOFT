@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Market Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <div class="user-greet">
+                <p>Kon'nichiwa!</p>
+                <h1>Night Market</h1>
+            </div>
+            <div class="cart-badge"><i class="fa-solid fa-bolt"></i></div>
+        </header>
+
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Find your ramen...">
+        </div>
+
+        <div class="category-bar">
+            <button class="chip active">All</button>
+            <button class="chip">Ramen</button>
+            <button class="chip">Sushi</button>
+            <button class="chip">Sake</button>
+            <button class="chip">Sides</button>
+        </div>
+
+        <div class="food-grid">
+            <div class="food-card">
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?q=80&w=400" alt="Tonkotsu">
+                    <span class="tag">Bestseller</span>
+                </div>
+                <div class="info">
+                    <h3>Black Garlic Tonkotsu</h3>
+                    <div class="stats">
+                        <span><i class="fa-regular fa-clock"></i> 15m</span>
+                        <span><i class="fa-solid fa-fire"></i> Spicy</span>
+                    </div>
+                    <p class="price">$18.50</p>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=400" alt="Sushi">
+                </div>
+                <div class="info">
+                    <h3>Dragon Roll (8pc)</h3>
+                    <div class="stats">
+                        <span><i class="fa-regular fa-clock"></i> 20m</span>
+                        <span><i class="fa-solid fa-star"></i> 4.9</span>
+                    </div>
+                    <p class="price">$22.00</p>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1582450871972-ab5ca641643d?q=80&w=400" alt="Gyoza">
+                </div>
+                <div class="info">
+                    <h3>Pan-Seared Gyoza</h3>
+                    <div class="stats">
+                        <span><i class="fa-regular fa-clock"></i> 10m</span>
+                        <span><i class="fa-solid fa-star"></i> 4.7</span>
+                    </div>
+                    <p class="price">$9.00</p>
+                </div>
+            </div>
+
+            <div class="food-card">
+                <div class="img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=400" alt="Sashimi">
+                </div>
+                <div class="info">
+                    <h3>Salmon Sashimi</h3>
+                    <div class="stats">
+                        <span><i class="fa-regular fa-clock"></i> 12m</span>
+                        <span><i class="fa-solid fa-star"></i> 5.0</span>
+                    </div>
+                    <p class="price">$24.00</p>
+                </div>
+            </div>
+        </div>
+
+        <nav class="tab-bar">
+            <i class="fa-solid fa-house active-icon"></i>
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-receipt"></i>
+            <i class="fa-solid fa-gear"></i>
+        </nav>
+    </div>
+
+</body>
+</html>
